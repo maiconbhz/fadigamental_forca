@@ -1,12 +1,12 @@
 ## 1. Cálculo amostral
 O presente estudo considera que exercícios de força de média intensidade (ex., 70% de 1RM) são afetados pela fadiga mental (Lima-Junio et al., 2024; Queiros et al., 2021), resultando em uma maior percepção subjetiva de esforço quando comparado a condição controle e levando o indivíduo a interromper a tarefa (Lima-Junio et al., 2024; Queiros et al., 2021). Deste modo, foi utilizada a biblioteca “statsmodels” no Python, para determinar o tamanho da amostra do presente estudo. Especificamente, o cálculo do tamanho amostral foi baseado em um tamanho de efeito grande (Cohen’s d = 0,80), conforme estudos prévios que investigaram fadiga mental no treinamento de força (de Lima-Junior et al., 2024; Queiros et al., 2021). Foi utilizado a função “solve_power” da classe “TTestPower” com os seguintes parâmetros: tamanho de efeito (Cohen’s d = 0,80), nível de significância (alpha = 0,05) e poder estatístico (power = 0,80). O código completo encontra-se abaixo (Figura 1).
 
-![Figura 1 – Código de cálculo amostral](Figuras/codigo_tamanho_da_amostra.png).
+![Figura 1 – Código de cálculo amostral](Figuras/codigo_tamanho_da_amostra.png)
 Figura 1: Código Completo do Cálculo Amostral
  
 Os resultados indicaram que o tamanho de amostra necessário seria de 15 sujeitos (Figura 2). Considerando uma possível perda amostral, optamos por coletar dados de 20 participantes, de forma a garantir o poder estatístico adequado mesmo em caso de perda amostral. Como o presente estudo investigará as diferenças individuais entre participantes com melhores e piores habilidades cognitivas, a amostra será dividida em dois grupos, sendo um composto por 20 indivíduos com altas habilidades cognitivas e outro por 20 indivíduos com baixas habilidades cognitivas. Além disso, serão incluídos 10 participantes classificados como mediano desempenho cognitivo. A inclusão desses 10 participantes intermediários terá como objetivo assegurar a separação adequada entre os grupos e reduzir o risco de sobreposição entre os grupos classificados como melhores e piores habilidades cognitivas. Essa estratégia permitirá que o critério de classificação seja validado e que os grupos representem com maior precisão as extremidades das habilidades cognitivas avaliadas.
 
-![Figura 2 – Cálculo Amostral](Figuras/calculo_amostral_teste_t_pareado.jpg).
+![Figura 2 – Cálculo Amostral](Figuras/calculo_amostral_teste_t_pareado.jpg)
 Figura 2: Cálculo Amostral
 
 ## 2. Processo de Aleatorização das Condições e Procedimentos:
@@ -17,7 +17,9 @@ Cada sujeito participará de cinco visitas, sendo duas condições experimentais
 Nas duas primeiras sessões, os participantes realizarão a caracterização da amostra, na qual serão aplicados os seguintes testes cognitivos, na seguinte ordem: 1) Matrizes de Viena, 2) Span de Dígitos, 3) Fluência Verbal (Letra F e animais), no segundo dia os testes de 4) Teste dos Cinco Dígitos e 5) RAVLT. Já na terceira visita será realizada a familiarização com a tarefa de Stroop e o teste de 1RM do exercício de Meio Agachamento.
 Na quarta e quinta sessões os voluntários serão alocados aleatoriamente nas condições 45 minutos de FM (através da tarefa de Flanker) ou 45 minutos de sessão controle (assistir documentário) em que o dispositivo de eletroencefalografia será posicionados nos participantes após eles estarem confortavelmente sentados. Antes e após as sessões experimentais os voluntários responderam a VAS para o estado mental e motivação e realizaram a tarefa de Stroop. Após dois minutos, executarão três séries máximas (i.e., até a falha muscular concêntrica) do exercício de Meio Agachamento a 70% de 1RM. Os participantes serão solicitados a relatar o PSE para essa tarefa imediatamente após cada série. As coletas de dados serão realizadas individualmente.
  
+![Figura 4 – Procedimentos](Figuras/Procedimentos.jpg)
 Figura 4: Procedimentos
+
 
 ## 2.Referências
 
