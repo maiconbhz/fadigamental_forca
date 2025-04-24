@@ -4,7 +4,7 @@ O presente estudo considera que exercícios de força de média intensidade (ex.
  
 Os resultados indicaram que o tamanho de amostra necessário seria de 15 sujeitos (Figura 2). Considerando uma possível perda amostral, optamos por coletar dados de 20 participantes, de forma a garantir o poder estatístico adequado mesmo em caso de perda amostral. Como o presente estudo investigará as diferenças individuais entre participantes com melhores e piores habilidades cognitivas, a amostra será dividida em dois grupos, sendo um composto por 20 indivíduos com altas habilidades cognitivas e outro por 20 indivíduos com baixas habilidades cognitivas. Além disso, serão incluídos 10 participantes classificados como mediano desempenho cognitivo. A inclusão desses 10 participantes intermediários terá como objetivo assegurar a separação adequada entre os grupos e reduzir o risco de sobreposição entre os grupos classificados como melhores e piores habilidades cognitivas. Essa estratégia permitirá que o critério de classificação seja validado e que os grupos representem com maior precisão as extremidades das habilidades cognitivas avaliadas.
 
-![Figura 2 – Cálculo Amostral](https://github.com/maiconbhz/fadigamental_forca/Figuras/codigo_tamanho_da_amostra.png).
+![Figura 2 – Cálculo Amostral](Figuras/calculo_amostral_teste_t_pareado.jpg).
 
 ## 2. Processo de Aleatorização das Condições e Procedimentos:
 Cada sujeito participará de cinco visitas, sendo duas condições experimentais (controle e fadiga mental) distribuídos em uma ordem aleatória e balanceada. A ordem será mantida para ambas as sessões do mesmo participante, que não terá conhecimento prévio das condições. O código em Python que será utilizado para aleatorizar as sessões, está representado na Figura 3.
