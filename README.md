@@ -12,8 +12,9 @@ Figura 2: Cálculo Amostral
 ## 2. Processo de Aleatorização das Condições e Procedimentos:
 Cada sujeito participará de cinco visitas, sendo duas condições experimentais (controle e fadiga mental) distribuídos em uma ordem aleatória e balanceada. A ordem será mantida para ambas as sessões do mesmo participante, que não terá conhecimento prévio das condições. O código em Python que será utilizado para aleatorizar as sessões, está representado na Figura 3.
 
-![Figura 3 – Código para aleatorizar os participantes](Figuras/Codigo_Aleatorizar.png).
- 
+![Figura 3 – Código para aleatorizar os participantes](Figuras/Codigo_Aleatorizar.png)
+Figura 3: Código para aleatorizar os participantes
+
 Nas duas primeiras sessões (Figura 4), os participantes realizarão a caracterização da amostra, na qual serão aplicados os seguintes testes cognitivos, na seguinte ordem: 1) Matrizes de Viena, 2) Span de Dígitos, 3) Fluência Verbal (Letra F e animais), no segundo dia os testes de 4) Teste dos Cinco Dígitos e 5) RAVLT. Já na terceira visita será realizada a familiarização com a tarefa de Stroop e o teste de 1RM do exercício de Meio Agachamento.
 Na quarta e quinta sessões os voluntários serão alocados aleatoriamente nas condições 45 minutos de FM (através da tarefa de Flanker) ou 45 minutos de sessão controle (assistir documentário) em que o dispositivo de eletroencefalografia será posicionados nos participantes após eles estarem confortavelmente sentados. Antes e após as sessões experimentais os voluntários responderam a VAS para o estado mental e motivação e realizaram a tarefa de Stroop. Após dois minutos, executarão três séries máximas (i.e., até a falha muscular concêntrica) do exercício de Meio Agachamento a 70% de 1RM. Os participantes serão solicitados a relatar o PSE para essa tarefa imediatamente após cada série. As coletas de dados serão realizadas individualmente.
  
@@ -21,7 +22,7 @@ Na quarta e quinta sessões os voluntários serão alocados aleatoriamente nas c
 Figura 4: Procedimentos
 
 
-## 2.Referências
+## 2. Referências
 
 ALLEN, D. G.; LAMB, G. D.; WESTERBLAD, H. Skeletal muscle fatigue: cellular mechanisms. Physiological Reviews, v. 88, n. 1, p. 287-332, 2008. Disponível em: https://doi.org/10.1152/physrev.00015.2007.
 BOKSEM, M. A. S.; MEIJMAN, T. F.; LORIST, M. M. Effects of mental fatigue on attention: an ERP study. Cognitive Brain Research, v. 25, n. 1, p. 107-116, 2005. Disponível em: https://doi.org/10.1016/j.cogbrainres.2005.04.011.
