@@ -1,8 +1,5 @@
 ## 1. Cálculo amostral
-<p style="text-align: justify;">
 O presente estudo considera que exercícios de força de média intensidade (ex., 70% de 1RM) são afetados pela fadiga mental (Lima-Junio et al., 2024; Queiros et al., 2021), resultando em uma maior percepção subjetiva de esforço quando comparado a condição controle e levando o indivíduo a interromper a tarefa (Lima-Junio et al., 2024; Queiros et al., 2021). Deste modo, foi utilizada a biblioteca “statsmodels” no Python, para determinar o tamanho da amostra do presente estudo. Especificamente, o cálculo do tamanho amostral foi baseado em um tamanho de efeito grande (Cohen’s d = 0,80), conforme estudos prévios que investigaram fadiga mental no treinamento de força (de Lima-Junior et al., 2024; Queiros et al., 2021). Foi utilizado a função “solve_power” da classe “TTestPower” com os seguintes parâmetros: tamanho de efeito (Cohen’s d = 0,80), nível de significância (alpha = 0,05) e poder estatístico (power = 0,80). O código completo encontra-se abaixo (Figura 1).
-</p>
-
 
 ![Figura 1 – Código de cálculo amostral](Figuras/codigo_tamanho_da_amostra.png)
 Figura 1: Código Completo do Cálculo Amostral
